@@ -58,11 +58,17 @@ a {
   /* text-align: center; */
 }
 
-header {
+#first-section {
+  width: 100%;
+  height: 650px;
+  background-image: url(../images/hero-1.webp);
+  background-size: cover;
+}
+#first-section header {
   width: 100%;
   height: 194px;
 }
-header .header-top {
+#first-section header .header-top {
   width: 100%;
   height: 100px;
   padding: 35px 95px 25px 95px;
@@ -70,41 +76,41 @@ header .header-top {
   justify-content: space-between;
   align-items: center;
 }
-header .header-top .social {
+#first-section header .header-top .social {
   display: flex;
 }
-header .header-top .social li a {
+#first-section header .header-top .social li a {
   color: #929292;
   margin-right: 25px;
 }
-header .header-top a {
+#first-section header .header-top a {
   margin-right: 70px;
   padding-top: 10px;
 }
-header .header-top a img {
+#first-section header .header-top a img {
   cursor: pointer;
   height: 30px;
 }
-header .header-top .search {
+#first-section header .header-top .search {
   display: flex;
 }
-header .header-top .search li a {
+#first-section header .header-top .search li a {
   color: #292929;
   font-size: 20px;
   line-height: 40px;
   margin: 0 20px;
 }
-header .header-bottom {
+#first-section header .header-bottom {
   width: 100%;
   height: 94px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-header .header-bottom .navLink {
+#first-section header .header-bottom .navLink {
   display: flex;
 }
-header .header-bottom .navLink li a {
+#first-section header .header-bottom .navLink li a {
   color: #292929;
   margin-right: 37px;
   font-size: 13px;
