@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 13px;
+  line-height: 23px;
+  font-style: normal;
+  font-weight: normal;
+  visibility: visible;
+  font-family: "Poppins", sans-serif;
+  color: #929292;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.previewHeader {
+  font-size: 12px;
+  height: 54px;
+  background-color: #262626;
+  z-index: 100;
+  line-height: 54px;
+  position: relative;
+}
+.previewHeader .previewHeaderLogo {
+  background-image: url(../images/envato_market.png);
+  width: 152px;
+  height: 18px;
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  background-size: 152px 18px;
+}
+.previewHeader .previewHeaderButton {
+  width: 93px;
+  height: 33px;
+  border-radius: 4px;
+  background-color: #82b440;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.previewHeader .previewHeaderButton h3 {
+  color: white;
+  font-size: 13px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* text-align: center; */
+}
+
+header {
+  width: 100%;
+  height: 194px;
+}
+header .header-top {
+  width: 100%;
+  height: 100px;
+  padding: 35px 95px 25px 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-top .social {
+  display: flex;
+}
+header .header-top .social li a {
+  color: #929292;
+  margin-right: 25px;
+}
+header .header-top a {
+  margin-right: 70px;
+  padding-top: 10px;
+}
+header .header-top a img {
+  cursor: pointer;
+  height: 30px;
+}
+header .header-top .search {
+  display: flex;
+}
+header .header-top .search li a {
+  color: #292929;
+  font-size: 20px;
+  line-height: 40px;
+  margin: 0 20px;
+}
+header .header-bottom {
+  width: 100%;
+  height: 94px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .header-bottom .navLink {
+  display: flex;
+}
+header .header-bottom .navLink li a {
+  color: #292929;
+  margin-right: 37px;
+  font-size: 13px;
+  line-height: 14px;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */
