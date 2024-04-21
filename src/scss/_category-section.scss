@@ -1,0 +1,116 @@
+#category-section{
+    width: 100%;
+   padding-top: 50px !important ;
+   .container{
+    width: 1250px;
+    //  height: 100px;
+     margin-right: auto;
+     margin-left: auto;
+     padding: 0 24px;
+     display: flex;
+
+     .product-tab-menu{
+        width: 296px;
+       padding: 0 15px;
+       .product-title{
+        text-align: center;
+    padding: 15px;
+    position: relative;
+    &::before{
+        background: #f0f0f0;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 3px;
+    z-index: 9;
+    }
+    h3{
+        font-size: 21px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #292929;
+    }
+    h2{
+        font-size: 39px;
+    line-height: 1.2;
+    color: #929292;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    }
+       } 
+       .categories{
+        ul{
+            li{
+
+                flex-basis: 100%;
+               text-align: center;
+               display: block;
+               border-bottom: 1px solid #e3e3e3;
+               a{
+                font-size: 14px;
+    line-height: 21px;
+    color: #292929;
+    display: block;
+    padding: 23px 25px;
+    font-weight: 500;
+    background-color: #f0f0f0;
+               }
+            }
+           
+        }
+       }
+     }
+    
+     .card{
+        width: 296px;
+        padding: 0 15px;
+        img{
+            width: 100%;
+            margin: 40px 0 20px 0;
+        }
+        .product-content{
+            width: 100%;
+            height: 94px;
+            .product-rating{
+                display: flex;
+                justify-content: space-between;
+                a{
+                    font-weight: 400;
+                   line-height: 12px;
+                   color: #929292;
+                }
+                i{
+                    color: #F5C60D;
+                }
+            }
+            h3{
+                font-size: 14px;
+                font-weight: 400;
+                color: #292929;
+            }
+            p{
+                .discounted-price{
+                    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-right: 10px;
+    color: #e33;
+                }
+                .main-price{
+                    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #929292;
+    text-decoration: line-through;
+                }
+            }
+        }
+     }
+   }
+}
